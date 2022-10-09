@@ -1,0 +1,35 @@
+### Important GIT Commands for beginer 
+
+$ git status | --> to get the status of repository
+$ git init |--> to initialize the repository in git
+$ git add --a  |--> To add all files into staging area (stage file) 
+$ git commit -m "Initial Commit"  |--> To take snapshop or to commit changes with message
+$ git commit -a -m  "Direct Commit" | --> It will directly commit tracked file with staged but it will not commit untracked file for that you need to add file first.
+$ git log --> To check log of repository
+$ rm -rf .git  |--> This command removes the repositoty from git and clear the .git file therefore it will not track that repository
+$ git clone <url/link>  for no change in name | git clone <url/link> -<changed_name>  To change name of the cloned repository
+$ touch .gitignore   -->   put the file names(use *.extention) insite .gitignore file then this files will get ignored in git
+	/folder_name/ --> To ignore only outer folder with that name and folder_name/ --> To ignore all folder with that name
+
+$  git diff --> It compares working area files with staging area files (+++ = added & --- = Earlier/removed)
+$ git rm <file_name> | rm 'file_name'  --> To remove/delete files with auto added into staging area
+$ git mv <file_name> <<changed_file_name>>   --> To move/rename files with auto added into staging area
+$ git rm --cached <file_name>   --> To remove file from tracking to untracing state
+$ git log -p -2
+$ git log --pretty=oneline/short/full
+$ git restore --staged <file_name>   -- To unstaged
+$ git checkout --<file_name>  -->   To restore previous commit content
+$ git checkout -f      --> To restore previous commit content
+$ git push -u origin master   -->  To push files/changes to the github repo
+$ 
+$ 
+$ 
+
+
+############  SSH KEY generation ##############
+Step 1. Create Repository on GitHub and follow this commands
+Step 2.  or If repository already created then follow following commands
+Step 3. 
+Step 4. 
+Step 5. 
+Step 6.  
