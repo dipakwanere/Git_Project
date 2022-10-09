@@ -28,7 +28,17 @@ $
 
 ############  SSH KEY generation ##############
 Step 1. Create Repository on GitHub and follow this commands
+git init
+git add .
+git commit -m "first commit"
+git remote add origin
+git remote add origin git@github.com:dipakwanere/Git_Project.git
+git push -u origin master
+
 Step 2.  or If repository already created then follow following commands
+git remote add origin git@github.com:dipakwanere/Git_Project.git
+git push -u origin master
+
 Step 3. 
 Step 4. 
 Step 5. 
