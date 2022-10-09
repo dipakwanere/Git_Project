@@ -28,8 +28,30 @@ $
 
 ############  SSH KEY generation ##############
 Step 1. Create Repository on GitHub and follow this commands
+git init
+git add .
+git commit -m "first commit"
+git remote add origin
+git remote add origin git@github.com:dipakwanere/Git_Project.git
+git push -u origin master
+
 Step 2.  or If repository already created then follow following commands
-Step 3. 
-Step 4. 
-Step 5. 
-Step 6.  
+git remote add origin git@github.com:dipakwanere/Git_Project.git
+git push -u origin master
+
+Step 3. git remote
+git remote -v
+Step 4. run this command to generate ssh key>> $ ssh-keygen -t ed25519 -C "dipakwanere2000@gmail.com"
+press enter enter all the way through.
+
+Step 5. Run the following commands as it is.
+$ eval "$(ssh-agent -s)"  
+$ ssh-add ~/.ssh/id_ed25519      this will add Identity
+
+Step 6. By running following command it will generate ssh key 
+$ tail ~/.ssh/id_ed25519.pub
+
+Step 7. Paste the Key in ssh key section in setting 
+Step 8. Run - $ git push -u origin master   to push the changes
+Step 9. 
+
